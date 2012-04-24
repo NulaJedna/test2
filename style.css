@@ -1,0 +1,16 @@
+@charset: "utf-8";
+li {
+	list-style: none;
+	display: inline;
+	padding: 0 9px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	padding: 100px;
+}
+.resize {
+	width:400px;
+	height:150px;
+}
