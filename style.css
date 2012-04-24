@@ -1,4 +1,24 @@
 @charset: "utf-8";
+body {
+	font-family: arial,sans-serif;
+}
+
+
+
+
+#navb {
+	height: 30px;
+	background-color: #222222;
+	position: absolute;
+	top: 0;
+	display: block;
+	margin: auto;
+	width:100%;
+	font-size: 13px;
+	font-weight: bold;
+
+
+}
 a:link {
 	text-decoration:none;
 	color:#CCCCCC;
@@ -11,21 +31,19 @@ a:visited	{
 
 a:hover	{
 	text-decoration:none;
-	color:white;
+	color:#FFFFFF;
 	}
 
 a:active	{
 	text-decoration:none;
-	color:#CCCCCC;
+	color:#FFFFFF;
 	}
 
 li {
+	
 	text-decoration: none;
 	display: inline;
-	padding: 0 9px;
-	font-family: arial,sans-serif;
-	font-weight: bold;
-	text-decoration: none;
+	margin: 0 9px 0 0;
 }
 
 img {
